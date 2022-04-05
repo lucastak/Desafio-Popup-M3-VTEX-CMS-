@@ -1,0 +1,29 @@
+@import "./lib/bootstrap-grid";
+@import "./lib/sprite";
+@import "./lib/slick";
+@import "./lib/lazyload";
+
+@import "./utils/all";
+
+@import "./partials/slider";
+@import "./partials/header";
+@import "./partials/menu";
+@import "./partials/search";
+@import "./partials/barraDeVantagens";
+@import "./partials/footer";
+@import "./partials/breadcrumb";
+@import "./partials/prateleira";
+@import "./partials/ajustes";
+@import "./partials/flags";
+
+@import "./components/mini-cart";
+@import "./components/newsletter";
+@import "./components/instagram-gallery";
+@import "./components/popup";
+
+@import "./pages/home";
+@import "./pages/categoria";
+@import "./pages/produto";
+@import "./pages/institucional";
+@import "./pages/erro";
+@import "./pages/login";

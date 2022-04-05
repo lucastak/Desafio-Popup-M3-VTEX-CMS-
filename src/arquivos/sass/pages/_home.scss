@@ -1,0 +1,134 @@
+.home {
+	.main-banners {
+		margin-bottom: 38px;
+
+		@include mq(md, max) {
+			margin-bottom: 32px;
+		}
+
+		img {
+			width: 100%;
+		}
+
+		&__desktop {
+			@include mq(md, max) {
+				display: none;
+			}
+		}
+
+		&__mobile {
+			@include mq(md, min) {
+				display: none;
+			}
+		}
+
+		.slick-arrow {
+			@extend .sprite;
+
+			@include mq(md, max) {
+				transform: translateY(-50%) scale(0.7);
+			}
+		}
+
+		.slick-prev {
+			left: 24px;
+
+			@extend .sprite-left-white-arrow-icon;
+
+			@include mq(md, max) {
+				left: 16px;
+				transform-origin: left;
+			}
+		}
+
+		.slick-next {
+			right: 24px;
+
+			@extend .sprite-right-white-arrow-icon;
+
+			@include mq(md, max) {
+				right: 16px;
+				transform-origin: right;
+			}
+		}
+
+		.slick-dots {
+			position: absolute;
+			left: 0;
+			bottom: 14px;
+			z-index: map-get($z-index, level-1);
+			width: 100%;
+
+			@include mq(md, max) {
+				bottom: 9px;
+			}
+
+			li {
+				&.slick-active {
+					button {
+						width: 16px;
+						height: 16px;
+						border: 1px solid $white-500;
+						background: transparent;
+					}
+				}
+			}
+		}
+	}
+
+	.advantages {
+		margin-bottom: 117px;
+
+		@include mq(md, max) {
+			margin-bottom: 89px;
+		}
+		&__list {
+			margin: 0;
+			padding: 0 15px;
+			display: flex;
+			align-items: center;
+			overflow: auto;
+
+			@include mq(sm, min) {
+				justify-content: center;
+			}
+
+			&::-webkit-scrollbar {
+				display: none;
+			}
+		}
+
+		&__item {
+			display: flex;
+			align-items: center;
+			margin-right: 75px;
+
+			@include mq(md, max) {
+				padding: 0;
+			}
+
+			&:last-of-type {
+				margin-right: 0;
+			}
+
+			i {
+				margin-right: 8px;
+			}
+		}
+
+		&__text {
+			margin: 0;
+			font-size: 10px;
+			line-height: 12px;
+			white-space: nowrap;
+		}
+	}
+
+	.shelf {
+		margin-bottom: 172px;
+
+		@include mq(md, max) {
+			margin-bottom: 80px;
+		}
+	}
+}

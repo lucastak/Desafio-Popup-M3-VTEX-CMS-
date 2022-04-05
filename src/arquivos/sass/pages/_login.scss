@@ -1,0 +1,106 @@
+.login {
+	#vtexIdContainer {
+		background-color: rgba(36, 36, 36, 0.32);
+
+		.vtexIdUI {
+			border: none;
+			border-radius: 0;
+			box-shadow: none;
+
+			* {
+				font-family: $font-family;
+			}
+
+			.vtexIdUI-heading {
+				font-size: 13px;
+			}
+
+			input {
+				border-radius: 0;
+				box-shadow: none;
+			}
+
+			.btn {
+				background-image: none;
+				background-color: #f5f5f5;
+				border-radius: 0;
+				border: 1px solid #e5e5e5;
+				box-shadow: none;
+				font-size: 14px;
+				outline: none;
+				padding: 14px 24px;
+				text-shadow: none;
+				transition: all 0.15s ease-in-out;
+
+				&:hover {
+					background-color: lighten(#f5f5f5, 5);
+				}
+
+				&:active {
+					background-color: darken(#f5f5f5, 5);
+				}
+
+				&.btn-success {
+					background-color: #f71963;
+					font-size: 14px;
+					height: auto;
+					padding: 14px 24px;
+
+					&:hover {
+						background-color: lighten(#f71963, 5);
+					}
+
+					&:active {
+						background-color: darken(#f71963, 5);
+					}
+
+					i {
+						display: none;
+					}
+				}
+			}
+
+			.vtexIdUI-back-link,
+			.vtexIdUI-user-email {
+				i {
+					display: none;
+				}
+			}
+		}
+
+		#vtexIdUI-auth-selector {
+			h4 {
+				&::before {
+					content: "Entrar";
+					color: #142032;
+					display: block;
+					font-size: 22px;
+					font-weight: 700;
+					margin-bottom: 10px;
+					text-transform: uppercase;
+				}
+			}
+		}
+
+		.modal-header,
+		.modal-footer {
+			background-color: transparent;
+			border: none;
+			text-align: center;
+		}
+
+		i.vtexid-icon-lock {
+			display: none;
+		}
+	}
+}
+
+main.login {
+	height: 50%;
+	padding: 150px 0;
+
+	#login-content {
+		margin-top: 250px;
+		margin-bottom: 250px;
+	}
+}

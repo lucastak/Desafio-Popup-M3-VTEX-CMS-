@@ -1,0 +1,63 @@
+#set($id = $product.Id) #set($idSku = $product.productVariantId) #set($uri =
+$product.Uri) #set($escapedName = $product.HtmlEscapedName)
+
+<div class="produto-na-prateleira" data-sku-id="$id">
+	<div class="flags-product">
+		<span class="HightLight"> $product.HightLight </span>
+		<span class="DiscountHightLight"> $product.DiscountHightLight </span>
+	</div>
+	<div class="product-image">
+		<a href="$uri" title="$escapedName">
+			<div class="foto-principal">
+				<div class="lazyload__sibling"></div>
+				<div class="lazyload" data-noscript="">
+					<noscript> $product.GetImageTag(2) </noscript>
+				</div>
+			</div>
+			<div class="foto-secundaria">
+				<div class="lazyload__sibling"></div>
+				<div class="lazyload" data-noscript="">
+					<noscript> $product.GetImageTag(2,"ultima") </noscript>
+				</div>
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">$escapedName</div>
+	</div>
+	#if ($product.IsInStock)
+	<div class="disponivel">
+		<div class="price">
+			<div class="antigo">
+				#if ($product.HasBestPrice)
+				<span class="value"> $product.ListPrice </span>
+				#end
+			</div>
+			<div class="principal">
+				<span class="value"> $product.BestPrice </span>
+			</div>
+			#if($product.NumbersOfInstallment > 1)
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					<span class="numero-de-parcelas"
+						>$product.NumbersOfInstallment</span
+					>X de
+					<span class="value"> $product.InstallmentValue </span>
+					sem juros
+				</span>
+			</div>
+			#end
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Compre agora" href="$uri">COMPRE AGORA</a>
+			</span>
+		</div>
+	</div>
+	#else
+	<div class="indisponivel">
+		<span class="erro">INDISPONÍVEL</span>
+	</div>
+	#end
+</div>

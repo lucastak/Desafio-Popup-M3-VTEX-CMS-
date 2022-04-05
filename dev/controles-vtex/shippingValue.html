@@ -1,0 +1,55 @@
+<p id="popupCalculoFreteWrapper" class="frete">
+	<a onclick="ShippingValue();" href="javascript:void(0);" title="Calcule o valor do frete e prazo de entrega para a sua região"
+	 class="shipping-value">Calcule o valor do frete e prazo de entrega para a sua região</a>
+</p>
+<div id="calculoFrete" seller="1" produtocorrente="10" skucorrente="13">
+	<div class="contentWrapper">
+		<div class="header">
+			<h1>
+				<a target="_parent" href="/" id="ctl00_lnkHome">minhaloja</a>
+			</h1>
+			<h2>Calcular o Frete</h2>
+			<div class="close">
+				<a href="javascript:void(0);" class="bt btn-thickbox" title="Fechar" id="lnkFechar1">Fechar</a>
+			</div>
+		</div>
+		<div id="ctl00_Conteudo_upnlContent">
+			<input type="hidden" name="CEPObrigatorio" id="CEPObrigatorio" value="O CEP deve ser informado.">
+			<input type="hidden" name="CEPInvalido" id="CEPInvalido" value="CEP inválido.">
+			<input type="hidden" name="ProdutoQuantidadeObrigatorio" id="ProdutoQuantidadeObrigatorio" value="É necessário informar a quantidade do mesmo Produto.">
+			<input type="hidden" id="StrCountry" value="BRA">
+			<div class="content">
+				<div style="display: none;" class="aviso-erro" id="ctl00_Conteudo_lblErro">
+					<div style="color: Red; display: none;" id="ctl00_Conteudo_vldSummary"></div>
+				</div>
+				<fieldset>
+					<label class="prefixo">Calcular o Frete
+						<input type="text" class="fitext freight-zip-box" id="txtCep" name="txtCep" value="">
+					</label>
+					<div class="quantity">
+						<input type="text" name="quantity" value="1">
+					</div>
+					<span class="frete-calcular btBordas btBordasInput">
+						<input type="hidden" id="stockKeepingUnitId" name="stockKeepingUnitId" value="13">
+						<input type="button" class="bt freight-btn" title="OK" id="btnFreteSimulacao" value="OK" name="btnFreteSimulacao">
+						<span class="rdbd bdl"></span>
+						<span class="rdbd bdr"></span>
+					</span>
+					<span style="color: Red; display: none;" id="RegularExpressionValidator1"></span>
+					<span style="color: Red; display: none;" id="RegularExpressionValidator2"></span>
+					<span class="cep-busca">
+						<a title="Não sei meu CEP" class="bt lnkExterno" target="_blank" href="http://www.buscacep.correios.com.br/sistemas/buscacep/">Não sei meu CEP</a>
+					</span>
+				</fieldset>
+				<div class="freight-values" style="display: none"></div>
+				<span style="color: Red; display: none;" id="reqCep1"></span>
+				<span style="color: Red; display: none;" id="reqCep2"></span>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="close">
+				<a href="javascript:void(0);" class="bt btn-thickbox" title="Fechar" id="lnkFechar2">Fechar</a>
+			</div>
+		</div>
+	</div>
+</div>

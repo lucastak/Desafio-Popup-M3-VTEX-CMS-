@@ -1,0 +1,96 @@
+.page-header {
+	background-color: $black-500;
+	padding: 28px 0;
+	position: relative;
+
+	@include mq(lg, max) {
+		padding: 18px 0 0;
+	}
+
+	@include mq(lg, min) {
+		position: sticky;
+		top: 0;
+		z-index: map-get($z-index, level-4);
+	}
+
+	&.is-fixed {
+		background: rgba($black-500, 0.9);
+	}
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: 2fr 1fr 2fr;
+		align-items: center;
+
+		@include mq(lg, max) {
+			grid-template-columns: repeat(3, 1fr);
+		}
+	}
+
+	&__logo {
+		display: block;
+		margin: 0 auto;
+
+		@include mq(lg, max) {
+			max-width: 66px;
+		}
+	}
+
+	.user-items {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+
+		&__search-box {
+			max-width: 212px;
+			flex: 1;
+
+			@include mq(lg, max) {
+				display: none;
+			}
+
+			.busca {
+				padding: 8px 0;
+				border-bottom: 1px solid $white-500;
+			}
+		}
+
+		&__account-link {
+			display: flex;
+			align-items: center;
+
+			&::before,
+			&::after {
+				content: "";
+				width: 1px;
+				height: 19px;
+				margin: 0 24px;
+				background: $white-500;
+
+				@include mq(lg, max) {
+					margin: 0 16px;
+				}
+			}
+
+			&::before {
+				@include mq(lg, max) {
+					display: none;
+				}
+			}
+		}
+	}
+
+	&__search-box {
+		margin-top: 18px;
+		border-top: 1px solid $gray-500;
+
+		@include mq(lg, min) {
+			display: none;
+		}
+
+		.busca {
+			padding: 13px 0;
+			border-bottom: 1px solid $white-500;
+		}
+	}
+}

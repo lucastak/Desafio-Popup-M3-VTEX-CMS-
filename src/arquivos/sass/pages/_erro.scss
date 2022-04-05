@@ -1,0 +1,62 @@
+.pagina-erro {
+	color: #142032;
+	text-align: center;
+	display: block;
+	min-height: 40%;
+	padding: 100px 20px;
+
+	&.busca-vazia {
+		h1::before {
+			background-image: url("/arquivos/template-vtex-error-empty-search.png");
+		}
+	}
+
+	&.erro-404 {
+		h1::before {
+			background-image: url("/arquivos/template-vtex-error-404.png");
+		}
+	}
+
+	&.erro-500 {
+		h1::before {
+			background-image: url("/arquivos/template-vtex-error-500.png");
+		}
+	}
+
+	h1 {
+		font-size: 24px;
+
+		&::before {
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			content: "";
+			display: table;
+			margin: 0 auto 24px;
+			padding: 55px;
+		}
+	}
+
+	p {
+		font-size: 16px;
+	}
+
+	a.voltar-para-home {
+		color: #fff;
+		background: #142032;
+		display: inline-block;
+		font-size: 14px;
+		margin: 1em auto 3em;
+		padding: 16px 56px;
+		text-transform: uppercase;
+		transition: all 0.15s ease-in-out;
+
+		&:hover {
+			background-color: lighten(#142032, 5);
+		}
+
+		&:active {
+			background-color: darken(#142032, 5);
+		}
+	}
+}

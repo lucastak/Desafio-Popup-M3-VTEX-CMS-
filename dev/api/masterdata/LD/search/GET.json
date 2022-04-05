@@ -1,0 +1,1087 @@
+[
+	{
+			"idProduto": 7050,
+			"ativo": true,
+			"id": "1000117",
+			"updatedIn": "2018-11-19T19:26:26.8798228Z",
+			"createdIn": "2018-10-30T21:12:53.0765141Z"
+	},
+	{
+			"idProduto": 7012,
+			"ativo": false,
+			"id": "1000116",
+			"updatedIn": "2018-11-19T19:26:03.1555957Z",
+			"createdIn": "2018-10-30T21:12:49.9764714Z"
+	},
+	{
+			"idProduto": 6987,
+			"ativo": true,
+			"id": "1000121",
+			"updatedIn": "2018-11-19T19:24:43.0720448Z",
+			"createdIn": "2018-10-30T21:13:09.9447158Z"
+	},
+	{
+			"idProduto": 7328,
+			"ativo": true,
+			"id": "1000177",
+			"updatedIn": "2018-11-19T19:22:46.6161777Z",
+			"createdIn": "2018-11-19T17:57:32.2348983Z"
+	},
+	{
+			"idProduto": 7342,
+			"ativo": true,
+			"id": "1000114",
+			"updatedIn": "2018-11-19T19:22:44.7087932Z",
+			"createdIn": "2018-10-30T19:35:12.9622978Z"
+	},
+	{
+			"idProduto": 6991,
+			"ativo": true,
+			"id": "1000115",
+			"updatedIn": "2018-11-19T19:22:28.0836175Z",
+			"createdIn": "2018-10-30T19:37:30.5155234Z"
+	},
+	{
+			"idProduto": 6985,
+			"ativo": false,
+			"id": "1000179",
+			"updatedIn": "2018-11-19T19:20:02.6592872Z",
+			"createdIn": "2018-11-19T19:19:55.3536921Z"
+	},
+	{
+			"idProduto": 7289,
+			"ativo": true,
+			"id": "1000176",
+			"updatedIn": "2018-11-19T19:18:11.6908873Z",
+			"createdIn": "2018-11-19T16:42:13.872555Z"
+	},
+	{
+			"idProduto": 6722,
+			"ativo": false,
+			"id": "1000126",
+			"updatedIn": "2018-11-19T17:32:39.3649253Z",
+			"createdIn": "2018-11-16T13:05:14.3149458Z"
+	},
+	{
+			"idProduto": 7377,
+			"ativo": false,
+			"id": "1000130",
+			"updatedIn": "2018-11-19T17:32:35.4155037Z",
+			"createdIn": "2018-11-19T12:30:31.4794274Z"
+	},
+	{
+			"idProduto": 7401,
+			"ativo": false,
+			"id": "1000135",
+			"updatedIn": "2018-11-19T17:32:29.0107528Z",
+			"createdIn": "2018-11-19T12:31:50.2270423Z"
+	},
+	{
+			"idProduto": 6134,
+			"ativo": false,
+			"id": "1000132",
+			"updatedIn": "2018-11-19T16:37:10.1199852Z",
+			"createdIn": "2018-11-19T12:30:38.9260248Z"
+	},
+	{
+			"idProduto": 7288,
+			"ativo": false,
+			"id": "1000137",
+			"updatedIn": "2018-11-19T16:37:07.127025Z",
+			"createdIn": "2018-11-19T13:30:25.2345274Z"
+	},
+	{
+			"idProduto": 4922,
+			"ativo": false,
+			"id": "1000120",
+			"updatedIn": "2018-11-19T16:32:26.6212113Z",
+			"createdIn": "2018-10-30T21:13:06.1915182Z"
+	},
+	{
+			"idProduto": 6589,
+			"ativo": false,
+			"id": "1000173",
+			"updatedIn": "2018-11-19T16:32:17.3157262Z",
+			"createdIn": "2018-11-19T16:29:40.1409488Z"
+	},
+	{
+			"idProduto": 7379,
+			"ativo": false,
+			"id": "1000136",
+			"updatedIn": "2018-11-19T16:32:15.5513714Z",
+			"createdIn": "2018-11-19T12:31:57.4273569Z"
+	},
+	{
+			"idProduto": 5021,
+			"ativo": false,
+			"id": "1000140",
+			"updatedIn": "2018-11-19T16:32:12.0905688Z",
+			"createdIn": "2018-11-19T13:39:10.3549446Z"
+	},
+	{
+			"idProduto": 7178,
+			"ativo": false,
+			"id": "1000174",
+			"updatedIn": "2018-11-19T16:32:07.8695689Z",
+			"createdIn": "2018-11-19T16:30:03.9459815Z"
+	},
+	{
+			"idProduto": 2297,
+			"ativo": false,
+			"id": "1000175",
+			"updatedIn": "2018-11-19T16:32:05.5371772Z",
+			"createdIn": "2018-11-19T16:30:21.7803683Z"
+	},
+	{
+			"idProduto": 6970,
+			"ativo": false,
+			"id": "1000113",
+			"updatedIn": "2018-11-19T16:25:20.1527707Z",
+			"createdIn": "2018-10-30T19:34:51.3040358Z"
+	},
+	{
+			"idProduto": 5057,
+			"ativo": false,
+			"id": "1000139",
+			"updatedIn": "2018-11-19T15:58:27.9947196Z",
+			"createdIn": "2018-11-19T13:39:06.2004356Z"
+	},
+	{
+			"idProduto": 7234,
+			"ativo": false,
+			"id": "1000125",
+			"updatedIn": "2018-11-16T13:04:45.9087018Z",
+			"createdIn": "2018-11-16T13:04:11.7420409Z"
+	},
+	{
+			"idProduto": 7007,
+			"ativo": false,
+			"id": "1000122",
+			"updatedIn": "2018-11-09T12:01:36.116308Z",
+			"createdIn": "2018-11-09T12:01:25.5936837Z"
+	},
+	{
+			"idProduto": 6914,
+			"ativo": true,
+			"id": "1000009",
+			"updatedIn": "2018-10-18T21:32:21.7119735Z",
+			"createdIn": "2018-10-16T19:27:27.2306306Z"
+	},
+	{
+			"idProduto": 6868,
+			"ativo": false,
+			"id": "1000008",
+			"updatedIn": "2018-10-18T12:28:32.4081411Z",
+			"createdIn": "2018-10-16T19:26:15.5319152Z"
+	},
+	{
+			"idProduto": 7361,
+			"ativo": true,
+			"id": "1000123",
+			"updatedIn": null,
+			"createdIn": "2018-11-09T12:03:19.1585263Z"
+	},
+	{
+			"idProduto": 7388,
+			"ativo": true,
+			"id": "1000134",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T12:31:52.1197456Z"
+	},
+	{
+			"idProduto": 7246,
+			"ativo": true,
+			"id": "1000273",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:03.6891571Z"
+	},
+	{
+			"idProduto": 7238,
+			"ativo": true,
+			"id": "1000274",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:05.7447001Z"
+	},
+	{
+			"idProduto": 7210,
+			"ativo": true,
+			"id": "1000275",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:07.4855483Z"
+	},
+	{
+			"idProduto": 7211,
+			"ativo": true,
+			"id": "1000276",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:08.6911182Z"
+	},
+	{
+			"idProduto": 7232,
+			"ativo": true,
+			"id": "1000277",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:10.1641839Z"
+	},
+	{
+			"idProduto": 7164,
+			"ativo": true,
+			"id": "1000278",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:10.177926Z"
+	},
+	{
+			"idProduto": 7142,
+			"ativo": true,
+			"id": "1000279",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:10.8260169Z"
+	},
+	{
+			"idProduto": 7134,
+			"ativo": true,
+			"id": "1000280",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:12.3109306Z"
+	},
+	{
+			"idProduto": 7123,
+			"ativo": true,
+			"id": "1000281",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:20.7578992Z"
+	},
+	{
+			"idProduto": 7111,
+			"ativo": true,
+			"id": "1000283",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:14.975105Z"
+	},
+	{
+			"idProduto": 7106,
+			"ativo": true,
+			"id": "1000282",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:14.9642576Z"
+	},
+	{
+			"idProduto": 7088,
+			"ativo": true,
+			"id": "1000284",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:15.4819362Z"
+	},
+	{
+			"idProduto": 7093,
+			"ativo": true,
+			"id": "1000285",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:16.1066499Z"
+	},
+	{
+			"idProduto": 7095,
+			"ativo": true,
+			"id": "1000286",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:16.795355Z"
+	},
+	{
+			"idProduto": 7079,
+			"ativo": true,
+			"id": "1000287",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:18.4841632Z"
+	},
+	{
+			"idProduto": 7075,
+			"ativo": true,
+			"id": "1000288",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:18.8947949Z"
+	},
+	{
+			"idProduto": 7327,
+			"ativo": true,
+			"id": "1000261",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:40.7214491Z"
+	},
+	{
+			"idProduto": 7335,
+			"ativo": true,
+			"id": "1000262",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:41.1444276Z"
+	},
+	{
+			"idProduto": 7336,
+			"ativo": true,
+			"id": "1000263",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:42.0289126Z"
+	},
+	{
+			"idProduto": 7325,
+			"ativo": true,
+			"id": "1000264",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:43.7739631Z"
+	},
+	{
+			"idProduto": 7316,
+			"ativo": true,
+			"id": "1000265",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:44.7527987Z"
+	},
+	{
+			"idProduto": 7311,
+			"ativo": true,
+			"id": "1000266",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:45.1295624Z"
+	},
+	{
+			"idProduto": 7282,
+			"ativo": true,
+			"id": "1000267",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:48.7950754Z"
+	},
+	{
+			"idProduto": 7305,
+			"ativo": true,
+			"id": "1000268",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:49.5636602Z"
+	},
+	{
+			"idProduto": 7306,
+			"ativo": true,
+			"id": "1000269",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:50.4416058Z"
+	},
+	{
+			"idProduto": 7279,
+			"ativo": true,
+			"id": "1000270",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:53.0501078Z"
+	},
+	{
+			"idProduto": 7256,
+			"ativo": true,
+			"id": "1000271",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:54.7874077Z"
+	},
+	{
+			"idProduto": 7271,
+			"ativo": true,
+			"id": "1000272",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:55.2093901Z"
+	},
+	{
+			"idProduto": 5499,
+			"ativo": true,
+			"id": "1000249",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:26.2760606Z"
+	},
+	{
+			"idProduto": 5501,
+			"ativo": true,
+			"id": "1000250",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:27.3483952Z"
+	},
+	{
+			"idProduto": 5712,
+			"ativo": true,
+			"id": "1000251",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:35.7650395Z"
+	},
+	{
+			"idProduto": 5378,
+			"ativo": true,
+			"id": "1000252",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:30.8053571Z"
+	},
+	{
+			"idProduto": 7356,
+			"ativo": true,
+			"id": "1000253",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:31.6774807Z"
+	},
+	{
+			"idProduto": 5375,
+			"ativo": true,
+			"id": "1000254",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:31.7293303Z"
+	},
+	{
+			"idProduto": 7349,
+			"ativo": true,
+			"id": "1000256",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:34.6585966Z"
+	},
+	{
+			"idProduto": 7353,
+			"ativo": true,
+			"id": "1000255",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:34.6598761Z"
+	},
+	{
+			"idProduto": 7355,
+			"ativo": true,
+			"id": "1000257",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:42.3072298Z"
+	},
+	{
+			"idProduto": 7339,
+			"ativo": true,
+			"id": "1000258",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:37.5476166Z"
+	},
+	{
+			"idProduto": 7337,
+			"ativo": true,
+			"id": "1000259",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:39.0577108Z"
+	},
+	{
+			"idProduto": 7338,
+			"ativo": true,
+			"id": "1000260",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:39.0774793Z"
+	},
+	{
+			"idProduto": 7073,
+			"ativo": true,
+			"id": "1000289",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:26.9827144Z"
+	},
+	{
+			"idProduto": 7067,
+			"ativo": true,
+			"id": "1000290",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:22.0312693Z"
+	},
+	{
+			"idProduto": 7068,
+			"ativo": true,
+			"id": "1000291",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:22.3289529Z"
+	},
+	{
+			"idProduto": 7070,
+			"ativo": true,
+			"id": "1000292",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:23.3825046Z"
+	},
+	{
+			"idProduto": 7064,
+			"ativo": true,
+			"id": "1000293",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:25.0106489Z"
+	},
+	{
+			"idProduto": 7055,
+			"ativo": true,
+			"id": "1000294",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:25.6638024Z"
+	},
+	{
+			"idProduto": 7249,
+			"ativo": true,
+			"id": "1000295",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:26:32.5190236Z"
+	},
+	{
+			"idProduto": 7380,
+			"ativo": true,
+			"id": "1000129",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T12:30:26.2660975Z"
+	},
+	{
+			"idProduto": 7366,
+			"ativo": true,
+			"id": "1000131",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T12:30:35.3806812Z"
+	},
+	{
+			"idProduto": 7402,
+			"ativo": true,
+			"id": "1000133",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T12:30:44.3461419Z"
+	},
+	{
+			"idProduto": 7314,
+			"ativo": true,
+			"id": "1000178",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T18:14:31.386244Z"
+	},
+	{
+			"idProduto": 7071,
+			"ativo": true,
+			"id": "1000228",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:40.0939152Z"
+	},
+	{
+			"idProduto": 6989,
+			"ativo": true,
+			"id": "1000229",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:42.3069671Z"
+	},
+	{
+			"idProduto": 7032,
+			"ativo": true,
+			"id": "1000227",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:39.9376463Z"
+	},
+	{
+			"idProduto": 7006,
+			"ativo": true,
+			"id": "1000226",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:39.304196Z"
+	},
+	{
+			"idProduto": 7152,
+			"ativo": true,
+			"id": "1000218",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:20.7976371Z"
+	},
+	{
+			"idProduto": 7107,
+			"ativo": true,
+			"id": "1000222",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:25.2723018Z"
+	},
+	{
+			"idProduto": 7078,
+			"ativo": true,
+			"id": "1000224",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:27.7230998Z"
+	},
+	{
+			"idProduto": 7072,
+			"ativo": true,
+			"id": "1000223",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:27.0101649Z"
+	},
+	{
+			"idProduto": 7124,
+			"ativo": true,
+			"id": "1000220",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:23.3911052Z"
+	},
+	{
+			"idProduto": 6997,
+			"ativo": true,
+			"id": "1000230",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:42.5125667Z"
+	},
+	{
+			"idProduto": 6977,
+			"ativo": true,
+			"id": "1000231",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:46.017673Z"
+	},
+	{
+			"idProduto": 6981,
+			"ativo": true,
+			"id": "1000232",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:46.267443Z"
+	},
+	{
+			"idProduto": 6982,
+			"ativo": true,
+			"id": "1000233",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:47.0679106Z"
+	},
+	{
+			"idProduto": 6976,
+			"ativo": true,
+			"id": "1000234",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:48.6835043Z"
+	},
+	{
+			"idProduto": 6928,
+			"ativo": true,
+			"id": "1000235",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:49.6329839Z"
+	},
+	{
+			"idProduto": 6974,
+			"ativo": true,
+			"id": "1000236",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:49.844214Z"
+	},
+	{
+			"idProduto": 6567,
+			"ativo": true,
+			"id": "1000237",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:51.7112993Z"
+	},
+	{
+			"idProduto": 6640,
+			"ativo": true,
+			"id": "1000238",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:52.3519352Z"
+	},
+	{
+			"idProduto": 6843,
+			"ativo": true,
+			"id": "1000239",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:53.6208731Z"
+	},
+	{
+			"idProduto": 6451,
+			"ativo": true,
+			"id": "1000240",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:55.5338563Z"
+	},
+	{
+			"idProduto": 6417,
+			"ativo": true,
+			"id": "1000241",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:56.1395158Z"
+	},
+	{
+			"idProduto": 6418,
+			"ativo": true,
+			"id": "1000242",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:57.4249951Z"
+	},
+	{
+			"idProduto": 6402,
+			"ativo": true,
+			"id": "1000243",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:58.5393537Z"
+	},
+	{
+			"idProduto": 6409,
+			"ativo": true,
+			"id": "1000244",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:59.5638436Z"
+	},
+	{
+			"idProduto": 6980,
+			"ativo": true,
+			"id": "1000189",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:29.475653Z"
+	},
+	{
+			"idProduto": 6996,
+			"ativo": true,
+			"id": "1000184",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:22.2718029Z"
+	},
+	{
+			"idProduto": 6998,
+			"ativo": true,
+			"id": "1000183",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:22.0338023Z"
+	},
+	{
+			"idProduto": 6999,
+			"ativo": true,
+			"id": "1000182",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:21.0161678Z"
+	},
+	{
+			"idProduto": 7354,
+			"ativo": true,
+			"id": "1000197",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:40.5692277Z"
+	},
+	{
+			"idProduto": 6972,
+			"ativo": true,
+			"id": "1000190",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:31.0884825Z"
+	},
+	{
+			"idProduto": 7292,
+			"ativo": true,
+			"id": "1000203",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:52.4085928Z"
+	},
+	{
+			"idProduto": 7262,
+			"ativo": true,
+			"id": "1000207",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:56.6314276Z"
+	},
+	{
+			"idProduto": 7250,
+			"ativo": true,
+			"id": "1000210",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:00.6160309Z"
+	},
+	{
+			"idProduto": 7225,
+			"ativo": true,
+			"id": "1000213",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:03.9229299Z"
+	},
+	{
+			"idProduto": 7227,
+			"ativo": true,
+			"id": "1000211",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:02.1504438Z"
+	},
+	{
+			"idProduto": 7161,
+			"ativo": true,
+			"id": "1000215",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:06.6181747Z"
+	},
+	{
+			"idProduto": 7168,
+			"ativo": true,
+			"id": "1000216",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:07.9157989Z"
+	},
+	{
+			"idProduto": 7275,
+			"ativo": true,
+			"id": "1000205",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:55.564206Z"
+	},
+	{
+			"idProduto": 7235,
+			"ativo": true,
+			"id": "1000208",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:58.8114494Z"
+	},
+	{
+			"idProduto": 7216,
+			"ativo": true,
+			"id": "1000212",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:03.6934157Z"
+	},
+	{
+			"idProduto": 7159,
+			"ativo": true,
+			"id": "1000214",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:05.6922522Z"
+	},
+	{
+			"idProduto": 7248,
+			"ativo": true,
+			"id": "1000209",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:59.4067255Z"
+	},
+	{
+			"idProduto": 7283,
+			"ativo": true,
+			"id": "1000202",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:51.4743342Z"
+	},
+	{
+			"idProduto": 7158,
+			"ativo": true,
+			"id": "1000217",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:20.0629151Z"
+	},
+	{
+			"idProduto": 7274,
+			"ativo": true,
+			"id": "1000206",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:55.9860824Z"
+	},
+	{
+			"idProduto": 7297,
+			"ativo": true,
+			"id": "1000204",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:23:53.6851983Z"
+	},
+	{
+			"idProduto": 7141,
+			"ativo": true,
+			"id": "1000219",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:21.6974595Z"
+	},
+	{
+			"idProduto": 7083,
+			"ativo": true,
+			"id": "1000225",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:28.4025588Z"
+	},
+	{
+			"idProduto": 7109,
+			"ativo": true,
+			"id": "1000221",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:24:24.7723772Z"
+	},
+	{
+			"idProduto": 6993,
+			"ativo": true,
+			"id": "1000186",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:26.2748247Z"
+	},
+	{
+			"idProduto": 6995,
+			"ativo": true,
+			"id": "1000185",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:25.2305379Z"
+	},
+	{
+			"idProduto": 6992,
+			"ativo": true,
+			"id": "1000187",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:26.3757515Z"
+	},
+	{
+			"idProduto": 6469,
+			"ativo": true,
+			"id": "1000193",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:35.4992911Z"
+	},
+	{
+			"idProduto": 7359,
+			"ativo": true,
+			"id": "1000198",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:41.4071839Z"
+	},
+	{
+			"idProduto": 6975,
+			"ativo": true,
+			"id": "1000191",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:31.7203155Z"
+	},
+	{
+			"idProduto": 7352,
+			"ativo": true,
+			"id": "1000196",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:39.786735Z"
+	},
+	{
+			"idProduto": 6983,
+			"ativo": true,
+			"id": "1000188",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:28.8527181Z"
+	},
+	{
+			"idProduto": 7341,
+			"ativo": true,
+			"id": "1000199",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:44.0235844Z"
+	},
+	{
+			"idProduto": 7333,
+			"ativo": true,
+			"id": "1000200",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:44.6598026Z"
+	},
+	{
+			"idProduto": 6393,
+			"ativo": true,
+			"id": "1000195",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:38.6198781Z"
+	},
+	{
+			"idProduto": 6405,
+			"ativo": true,
+			"id": "1000194",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:36.6635552Z"
+	},
+	{
+			"idProduto": 6978,
+			"ativo": true,
+			"id": "1000192",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:33.5477912Z"
+	},
+	{
+			"idProduto": 7332,
+			"ativo": true,
+			"id": "1000201",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:22:47.37528Z"
+	},
+	{
+			"idProduto": 6416,
+			"ativo": true,
+			"id": "1000245",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:00.3159603Z"
+	},
+	{
+			"idProduto": 6364,
+			"ativo": true,
+			"id": "1000246",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:10.3001188Z"
+	},
+	{
+			"idProduto": 6276,
+			"ativo": true,
+			"id": "1000247",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:03.7686251Z"
+	},
+	{
+			"idProduto": 5714,
+			"ativo": true,
+			"id": "1000248",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:25:04.3702094Z"
+	},
+	{
+			"idProduto": 7481,
+			"ativo": true,
+			"id": "1000127",
+			"updatedIn": null,
+			"createdIn": "2018-11-16T13:05:20.8254218Z"
+	},
+	{
+			"idProduto": 5967,
+			"ativo": true,
+			"id": "1000128",
+			"updatedIn": null,
+			"createdIn": "2018-11-16T13:05:29.4429764Z"
+	},
+	{
+			"idProduto": 7301,
+			"ativo": true,
+			"id": "1000124",
+			"updatedIn": null,
+			"createdIn": "2018-11-16T13:03:58.3514171Z"
+	},
+	{
+			"idProduto": 6768,
+			"ativo": true,
+			"id": "1000141",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T13:40:40.5987962Z"
+	},
+	{
+			"idProduto": 5560,
+			"ativo": true,
+			"id": "1000142",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T13:40:42.5028545Z"
+	},
+	{
+			"idProduto": 6049,
+			"ativo": true,
+			"id": "1000138",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T13:38:10.1614428Z"
+	},
+	{
+			"idProduto": 6988,
+			"ativo": true,
+			"id": "1000180",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:20:04.9157493Z"
+	},
+	{
+			"idProduto": 7284,
+			"ativo": true,
+			"id": "1000181",
+			"updatedIn": null,
+			"createdIn": "2018-11-19T19:20:12.486441Z"
+	},
+	{
+			"idProduto": 7005,
+			"ativo": true,
+			"id": "1000118",
+			"updatedIn": null,
+			"createdIn": "2018-10-30T21:13:00.5452605Z"
+	},
+	{
+			"idProduto": 6994,
+			"ativo": true,
+			"id": "1000119",
+			"updatedIn": null,
+			"createdIn": "2018-10-30T21:13:02.7417641Z"
+	}
+]

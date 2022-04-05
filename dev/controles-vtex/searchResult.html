@@ -1,0 +1,2242 @@
+<div class="main">
+	<p class="searchResultsTime">
+		<span class="resultado-busca-numero">
+			<span class="label">Produtos encontrados:</span>
+			<span class="value">4807</span>
+		</span>
+		<span class="resultado-busca-termo">
+			<span class="label">Resultado da Pesquisa por:</span>
+			<strong class="value"></strong>
+		</span>
+		<span class="resultado-busca-tempo">
+			<span class="label">em</span>
+			<span class="value">52 ms</span>
+		</span>
+	</p>
+	<div class="sub">
+		<div class="resultado-busca-filtro">
+			<fieldset class="orderBy">
+				<label>Ordenar por:</label>
+				<select id="O" >
+					<option value="">Selecione</option>
+					<option value="OrderByPriceASC">Menor Preço</option>
+					<option value="OrderByPriceDESC">Maior Preço</option>
+					<option value="OrderByTopSaleDESC">Mais vendidos</option>
+					<option value="OrderByReviewRateDESC">Melhores avaliações</option>
+					<option value="OrderByNameASC">A - Z</option>
+					<option value="OrderByNameDESC">Z - A</option>
+					<option value="OrderByReleaseDateDESC">Data de lançamento</option>
+					<option value="OrderByBestDiscountDESC">Melhor Desconto</option>
+				</select>
+			</fieldset>
+			<fieldset class="filterBy">
+				Itens por página:
+				<select id="PS" onchange="window.location.href= '/medicamentos?' + 'PS=' + this.options[this.selectedIndex].value">
+					<option selected="selected" value="24">24</option>
+					<option value="48">48</option>
+					<option value="72">72</option>
+					<option value="96">96</option>
+				</select>
+			</fieldset>
+			<p class="compare">Produtos selecionados para comparar:
+				<strong>
+					<span class="compare-selection-count" id="NumeroSuperior">0</span>
+				</strong>
+				<a title="Comparar" class="btn-comparar" href="#">Comparar</a>
+			</p>
+		</div>
+	</div>
+	<div class="vitrine resultItemsWrapper">
+		<div class="pager top" id="PagerTop_58523171">
+			<ul class="pages">
+				<li class="first pgEmpty">primeiro</li>
+				<li class="previous pgEmpty">anterior</li>
+				<li class="page-number pgCurrent">1</li>
+				<li class="page-number">2</li>
+				<li class="page-number">3</li>
+				<li class="page-number">4</li>
+				<li class="page-number">5</li>
+				<li class="next">próximo</li>
+				<li class="last">último</li>
+			</ul>
+		</div>
+		<div id="ResultItems_58523171" class="QD prateleira qd-xs">
+			<div class="prateleira-padrao">
+				<ul >
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+					<li layout="6c643fd3-9434-4b50-bef9-3a4f8c6bcb1b" class="saude-compre-aqui-com-desconto----farma-22" style="width: 100%; display: inline-block;">
+					<!--
+#set($id = $product.Id)
+#set($idSku = $product.productVariantId)
+#set($uri = $product.Uri)
+#set($escapedName = $product.HtmlEscapedName)
+-->
+
+<div class="produto-na-prateleira">
+	<div class="flags-product">
+		<span class="HightLight">
+			<p class="flag novo">novo</p>
+			<!-- $product.HightLight -->
+		</span>
+		<span class="DiscountHightLight">
+			<p class="flag off">off</p>
+			<!-- $product.DiscountHightLight -->
+		</span>
+	</div>
+	<div class="product-image ">
+		<a href="produto.html" title="Titulo do produto">
+		<!-- title=$product.EscapedName -->
+			<div class="foto-principal" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-frente.png" />
+			</div>
+			<div class="foto-secundaria" >
+				<!-- $product.GetImageTag(2) -->
+				<img src="/arquivos/produto-costas.png" />
+			</div>
+		</a>
+	</div>
+	<div class="informacoes">
+		<div class="avaliacao"></div>
+		<div class="nome">
+			Titulo do produto
+			<!-- $product.EscapedName -->
+		</div>
+	</div>
+	<!-- #if ($product.IsInStock) -->
+	<div class="disponivel">
+		<div class="price">
+			<!-- #if ($product.HasBestPrice) -->
+			<div class="antigo">
+				<span class="value">
+					R$ 1500000,00
+					<!-- $product.ListPrice -->
+				</span>
+			</div>
+			<!-- #end -->
+			<div class="principal">
+				<span class="value">
+					R$ 1000000,00
+				<!-- $product.BestPrice -->
+				</span>
+			</div>
+			<div class="parcelado">
+				<span class="desconto-parcelado">
+					ou <strong>
+					<span class="numero-de-parcelas">1</span>X</strong> de
+					<span class="value">
+						R$ 2,50
+						<!-- $product.BestPrice -->
+					</span> sem juros
+				</span>
+			</div>
+			<div class="boleto">
+				<span class="value">
+					R$ 9,50
+					<!-- $product.BestPrice -->
+				</span>
+				à vista no boleto bancário
+			</div>
+		</div>
+		<div class="compra">
+			<span class="btn-compra">
+				<a title="Comprar" href="produto.html">Comprar</a>
+			</span>
+		</div>
+	</div>
+	<!-- #else -->
+	<div class="indisponivel">
+		<span class="erro">Produto indisponível</span>
+	</div>
+	<!-- #end -->
+</div>
+
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="pager bottom" id="PagerBottom_58523171">
+			<ul class="pages">
+				<li class="first pgEmpty">primeiro</li>
+				<li class="previous pgEmpty">anterior</li>
+				<li class="page-number pgCurrent">1</li>
+				<li class="page-number">2</li>
+				<li class="page-number">3</li>
+				<li class="page-number">4</li>
+				<li class="page-number">5</li>
+				<li class="next">próximo</li>
+				<li class="last">último</li>
+			</ul>
+		</div>
+	</div>
+	<p class="searchResultsTime">
+		<span class="resultado-busca-numero">
+			<span class="label">Produtos encontrados:</span>
+			<span class="value">4807</span>
+		</span>
+		<span class="resultado-busca-termo">
+			<span class="label">Resultado da Pesquisa por:</span>
+			<strong class="value"></strong>
+		</span>
+		<span class="resultado-busca-tempo">
+			<span class="label">em</span>
+			<span class="value">52 ms</span>
+		</span>
+	</p>
+	<div class="sub">
+		<div class="resultado-busca-filtro">
+			<fieldset class="orderBy">
+				<label>Ordenar por:</label>
+				<select id="O" onchange="window.location.href= '/medicamentos?PS=24&amp;' + 'O=' + this.options[this.selectedIndex].value">
+					<option value="">Selecione</option>
+					<option value="OrderByPriceASC">Menor Preço</option>
+					<option value="OrderByPriceDESC">Maior Preço</option>
+					<option value="OrderByTopSaleDESC">Mais vendidos</option>
+					<option value="OrderByReviewRateDESC">Melhores avaliações</option>
+					<option value="OrderByNameASC">A - Z</option>
+					<option value="OrderByNameDESC">Z - A</option>
+					<option value="OrderByReleaseDateDESC">Data de lançamento</option>
+					<option value="OrderByBestDiscountDESC">Melhor Desconto</option>
+				</select>
+			</fieldset>
+			<fieldset class="filterBy">
+				Itens por página:
+				<select id="PS" onchange="window.location.href= '/medicamentos?' + 'PS=' + this.options[this.selectedIndex].value">
+					<option selected="selected" value="24">24</option>
+					<option value="48">48</option>
+					<option value="72">72</option>
+					<option value="96">96</option>
+				</select>
+			</fieldset>
+			<p class="compare">Produtos selecionados para comparar:
+				<strong>
+					<span class="compare-selection-count" id="NumeroSuperior">0</span>
+				</strong>
+				<a title="Comparar" class="btn-comparar" href="#">Comparar</a>
+			</p>
+		</div>
+	</div>
+</div>

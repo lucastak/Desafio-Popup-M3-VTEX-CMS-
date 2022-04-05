@@ -1,0 +1,156 @@
+.footer-links {
+	@include mq(md, min) {
+		padding: 29px 0 25px;
+		border-bottom: 1px solid $gray-100;
+	}
+
+	&__wrapper {
+		display: grid;
+		grid-template-columns: repeat(3, max-content);
+		gap: 148px;
+		justify-content: center;
+
+		@include mq(md, max) {
+			grid-template-columns: 1fr;
+			gap: 0;
+		}
+	}
+
+	&__block {
+		@include mq(md, max) {
+			padding: 24px 15px;
+			border-bottom: 1px solid $gray-100;
+		}
+	}
+
+	&__title {
+		margin: 0;
+		font-size: 12px;
+		line-height: 15px;
+	}
+
+	&__items-list {
+		margin: 0 0 10px;
+
+		&--social-networks {
+			display: grid;
+			grid-auto-flow: column;
+			grid-auto-columns: max-content;
+			gap: 16px;
+			align-items: center;
+		}
+	}
+
+	&__item {
+		padding: 4px 0;
+		font-size: 10px;
+		line-height: 12px;
+	}
+
+	&__link {
+		color: $black-500;
+		transition: color 0.2s linear;
+
+		@include mq(lg, min) {
+			&:hover {
+				color: $blue-500;
+			}
+		}
+	}
+}
+
+.footer-infos {
+	&__labels {
+		display: flex;
+		justify-content: center;
+
+		@include mq(lg, max) {
+			flex-direction: column;
+		}
+
+		@include mq(lg, min) {
+			align-items: center;
+			padding: 16px 0;
+			border-bottom: 1px solid $gray-100;
+		}
+	}
+
+	&__payment,
+	&__security {
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-columns: max-content;
+		align-items: center;
+		margin: 0;
+
+		@include mq(lg, max) {
+			justify-content: center;
+			padding: 24px 0;
+		}
+	}
+
+	&__payment {
+		gap: 8px;
+
+		@include mq(lg, max) {
+			border-bottom: 1px solid $gray-100;
+		}
+	}
+
+	&__security {
+		gap: 16px;
+	}
+
+	&__divider {
+		width: 1px;
+		height: 51px;
+		background: $gray-100;
+		margin: 0 24px;
+
+		@include mq(lg, max) {
+			display: none;
+		}
+	}
+
+	&__company {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		@include mq(lg, max) {
+			flex-direction: column;
+			padding-bottom: 24px;
+		}
+
+		@include mq(lg, min) {
+			padding: 12px 0;
+		}
+	}
+
+	&__copyright {
+		margin: 0 16px 0 0;
+		font-size: 10;
+		line-height: 12px;
+		color: $gray-200;
+
+		@include mq(lg, max) {
+			margin-right: 0;
+			text-align: center;
+		}
+	}
+
+	&__development {
+		display: grid;
+		grid-auto-flow: column;
+		grid-auto-columns: max-content;
+		align-items: center;
+		gap: 16px;
+	}
+
+	&__developed-by {
+		margin-right: 7px;
+		font-size: 10px;
+		line-height: 12px;
+		color: $gray-200;
+	}
+}

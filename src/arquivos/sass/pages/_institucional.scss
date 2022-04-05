@@ -1,0 +1,83 @@
+/***************************************************************/
+/**-- Institucional ------------------------********************/
+/*-------------------------------------------------------------*/
+
+.institucional {
+	color: #142032;
+
+	.breadcrumb {
+		font-size: 14px;
+		margin-top: 32px;
+		margin-bottom: 20px;
+		text-align: center;
+
+		li {
+			display: inline-block;
+
+			a {
+				border-right: 1px solid #142032;
+				color: #142032;
+				margin-right: 7px;
+				padding: 0px 9px 0px 0;
+			}
+
+			span {
+				font-weight: 700;
+				cursor: default;
+			}
+		}
+	}
+
+	.navegacao {
+		font-size: 14px;
+
+		h3 {
+			font-size: 32px;
+			margin: 0 0 40px;
+			text-align: center;
+		}
+
+		ul {
+			max-width: 790px;
+			margin: 0 auto 32px;
+			text-align: center;
+		}
+
+		li {
+			display: inline-block;
+			padding: 4px 2px;
+
+			a {
+				border: 1px solid #142032;
+				border-radius: 31px;
+				color: #f71963;
+				display: block;
+				font-weight: 700;
+				padding: 8px 16px;
+				transition: all 0.15s ease-in-out;
+
+				&.ativo {
+					background-color: #142032;
+					color: $white-500;
+				}
+
+				&:hover {
+					background-color: lighten(#142032, 5);
+					color: $white-500;
+				}
+
+				&:active {
+					background-color: darken(#142032, 10);
+					color: $white-500;
+				}
+			}
+		}
+	}
+
+	.conteudo {
+		font-size: 14px;
+		max-width: 767px;
+		margin: auto;
+		text-align: justify;
+	}
+}

@@ -1,0 +1,33 @@
+.slick-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: map-get($z-index, level-1);
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 0;
+	background-color: transparent;
+	cursor: pointer;
+}
+
+.slick-dots {
+	display: flex !important;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+
+	li {
+		display: flex;
+		margin: 0 4px;
+	}
+
+	button {
+		width: 10px;
+		height: 10px;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		background: $white-500;
+	}
+}

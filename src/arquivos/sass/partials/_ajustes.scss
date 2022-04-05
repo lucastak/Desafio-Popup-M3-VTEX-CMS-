@@ -1,0 +1,46 @@
+/***************************************************************/
+/**-- Efeitos  ajustes  outros -------------********************/
+/*-------------------------------------------------------------*/
+.scroll-to-top {
+	bottom: 5em;
+	cursor: pointer;
+	display: none;
+	right: 0;
+	margin-right: 2em;
+	position: fixed;
+	z-index: map-get($z-index, scroll-top);
+
+	@include mq(md, max) {
+		bottom: 6em;
+	}
+}
+
+.tabs-horizontal {
+	border-bottom: solid 1px #eee;
+	margin-bottom: 15px;
+
+	li {
+		display: inline-block;
+	}
+
+	a {
+		display: block;
+		padding: 15px 20px 10px;
+		border-top-right-radius: 2px;
+		border-top-left-radius: 2px;
+
+		&.ativa {
+			background-color: #eee;
+		}
+	}
+}
+
+/***************************************************************/
+/**-- Mobile -------------------------------********************/
+/*-------------------------------------------------------------*/
+
+@media only screen and (max-width: 768px) {
+	.tabs-horizontal a {
+		padding: 15px 5px 10px;
+	}
+}

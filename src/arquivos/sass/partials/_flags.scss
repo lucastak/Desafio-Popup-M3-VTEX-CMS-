@@ -1,0 +1,37 @@
+.flags-product {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: map-get($z-index, level-2);
+	padding: 8px;
+
+	.flag {
+		display: none;
+		margin: 0 0 8px;
+		min-width: 54px;
+		max-width: max-content;
+		height: 20px;
+		font-size: 10px;
+		line-height: 10px;
+		text-transform: uppercase;
+
+		&.novo,
+		&.produto-off {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+
+		&.novo {
+			font-weight: 700;
+			color: $white-500;
+			background: $blue-500;
+		}
+
+		&.produto-off {
+			font-weight: 900;
+			color: $white-500;
+			background: $black-500;
+		}
+	}
+}

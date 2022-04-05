@@ -1,0 +1,44 @@
+<header class="page-header">
+	<div class="container">
+		<div class="page-header__wrapper">
+			<div class="menu">
+				<button class="menu__button">
+					<i class="sprite sprite-menu-icon"></i>
+				</button>
+				<vtex.cmc:LucasSantosMenuPrincipal />
+			</div>
+
+			<a href="/">
+				<img
+					class="page-header__logo"
+					src="/arquivos/m3-lucassantos-logo.png"
+					alt="Logo M3"
+				/>
+			</a>
+
+			<div class="user-items">
+				<div class="user-items__search-box">
+					<vtex.cmc:fullTextSearchBox />
+				</div>
+
+				<a class="user-items__account-link" href="/account">
+					<i class="sprite sprite-user-icon"></i>
+				</a>
+
+				<div class="minicart">
+					<button class="minicart__button">
+						<i class="sprite sprite-bag-icon"></i>
+						<vtex.cmc:AmountItemsInCart />
+					</button>
+
+					<div class="minicart__drawer"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="page-header__search-box">
+		<div class="container">
+			<vtex.cmc:fullTextSearchBox />
+		</div>
+	</div>
+</header>

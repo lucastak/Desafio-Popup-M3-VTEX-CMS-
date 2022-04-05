@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es2020",
+		"allowSyntheticDefaultImports": false,
+		"baseUrl": "./",
+		"paths": {
+			"Helpers/*": ["src/arquivos/js/helpers/*"],
+			"Config/*": ["src/arquivos/js/config/*"],
+			"Lib/*": ["src/arquivos/js/lib/*"],
+			"App/*": ["src/arquivos/js/app/*"]
+		}
+	},
+	"exclude": ["node_modules", "dist"]
+}

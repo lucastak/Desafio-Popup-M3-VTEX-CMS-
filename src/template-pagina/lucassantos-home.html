@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:vtex="http://www.vtex.com.br/2009/vtex-common"
+	xmlns:vtex.cmc="http://www.vtex.com.br/2009/vtex-commerce"
+	lang="pt-br"
+>
+	<head>
+		<meta name="page" content="home" page-id="homepage" />
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<vtex:metaTags />
+		<title>M3 Lucas Santos</title>
+
+		<vtex:template id="lucassantos-loads-header" />
+	</head>
+
+	<body>
+		<vtex:template id="lucassantos-header" />
+
+		<main class="home">
+			<vtex.cmc:PopupLucasSantos />
+			<section class="main-banners">
+				<div class="main-banners__desktop">
+					<vtex:contentPlaceHolder id="banners-principais-desktop" />
+				</div>
+				<div class="main-banners__mobile">
+					<vtex:contentPlaceHolder id="banners-principais-mobile" />
+				</div>
+			</section>
+
+			<section class="advantages">
+				<ul class="advantages__list">
+					<li class="advantages__item">
+						<i class="sprite sprite-credit-card-icon"></i>
+						<p class="advantages__text">
+							PARCELAMENTO EM <br />
+							ATÉ 6X SEM JUROS
+						</p>
+					</li>
+
+					<li class="advantages__item">
+						<i class="sprite sprite-truck-icon"></i>
+						<p class="advantages__text">
+							PAC GRÁTIS PARA COMPRAS <br />
+							ACIMA DE <strong>R$500,00</strong>
+						</p>
+					</li>
+
+					<li class="advantages__item">
+						<i class="sprite sprite-store-icon"></i>
+						<p class="advantages__text">
+							FÁBRICA <br />
+							PRÓPRIA
+						</p>
+					</li>
+				</ul>
+			</section>
+
+			<section class="shelf">
+				<div class="container">
+					<vtex:contentPlaceHolder id="prateleira-01" />
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<vtex:template id="lucassantos-footer-newsletter" />
+			<vtex:template id="lucassantos-footer-links" />
+			<vtex:template id="lucassantos-footer" />
+		</footer>
+		<vtex:template id="lucassantos-loads-footer" />
+		<div class="overlay"></div>
+	</body>
+</html>

@@ -1,0 +1,397 @@
+[
+	{
+			"productId": "33776",
+			"productName": "Bolsa Feminina de Mão Textura Frontal em Tressê - WJ Acessórios",
+			"brand": "Wj",
+			"linkText": "bolsa-feminina-de-mao-textura-frontal-em-tresse---wj-acessorios--00237504732",
+			"productReference": "002.3.750.4732",
+			"categoryId": "439",
+			"productTitle": "",
+			"metaTagDescription": "<p> - Bolsa feminina <br><p> - Textura frontal em tressê<br><p> - Laterais com botões de pressão  <br><p> - Fecho superior de zíper<br><p> - Bolso de zíper no verso <br><p> - Alça de mão <br><p> - Alça tiracolo opcional  <br><p> - Forro de tecido <br><p> - Um bolso interno de zíper <br><p> - Dois compartimentos internos para pequenos pertences",
+			"clusterHighlights": {
+					"137": "Lançamentos"
+			},
+			"productClusters": {
+					"137": "Lançamentos"
+			},
+			"searchableClusters": {
+					"137": "Lançamentos"
+			},
+			"categories": [
+					"/Bauarte vtex/",
+					"/Feminino/",
+					"/Feminino/Bolsas/"
+			],
+			"categoriesIds": [
+					"/439/",
+					"/444/",
+					"/444/447/"
+			],
+			"link": "https://bauarte.vtexcommercestable.com.br/bolsa-feminina-de-mao-textura-frontal-em-tresse---wj-acessorios--00237504732/p",
+			"description": "<p> - Bolsa feminina <br><p> - Textura frontal em tressê<br><p> - Laterais com botões de pressão  <br><p> - Fecho superior de zíper<br><p> - Bolso de zíper no verso <br><p> - Alça de mão <br><p> - Alça tiracolo opcional  <br><p> - Forro de tecido <br><p> - Um bolso interno de zíper <br><p> - Dois compartimentos internos para pequenos pertences",
+			"items": [
+					{
+							"itemId": "163975",
+							"name": "Bolsa Feminina de Mão Textura Frontal em Tressê - WJ Acessórios  Marrom",
+							"nameComplete": "Bolsa Feminina de Mão Textura Frontal em Tressê - WJ Acessórios  Marrom",
+							"complementName": "750.44732",
+							"ean": "7908210630693",
+							"referenceId": [
+									{
+											"Key": "RefId",
+											"Value": "33776_38_0_M"
+									}
+							],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"modalType": null,
+							"isKit": false,
+							"images": [
+									{
+											"imageId": "155451",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155451-#width#-#height#/002.3.750.4732_019_M-1.jpg?v=636894017208970000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_019_M-1\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155451/002.3.750.4732_019_M-1.jpg?v=636894017208970000",
+											"imageText": "002.3.750.4732_019_M-1"
+									},
+									{
+											"imageId": "155452",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155452-#width#-#height#/002.3.750.4732_019_M-2.jpg?v=636894017221630000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_019_M-2\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155452/002.3.750.4732_019_M-2.jpg?v=636894017221630000",
+											"imageText": "002.3.750.4732_019_M-2"
+									},
+									{
+											"imageId": "155453",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155453-#width#-#height#/002.3.750.4732_019_M-3.jpg?v=636894017234000000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_019_M-3\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155453/002.3.750.4732_019_M-3.jpg?v=636894017234000000",
+											"imageText": "002.3.750.4732_019_M-3"
+									},
+									{
+											"imageId": "155454",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155454-#width#-#height#/002.3.750.4732_019_M-4.jpg?v=636894017244330000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_019_M-4\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155454/002.3.750.4732_019_M-4.jpg?v=636894017244330000",
+											"imageText": "002.3.750.4732_019_M-4"
+									}
+							],
+							"Cor": [
+									"MARROM"
+							],
+							"Tamanho": [
+									"M"
+							],
+							"variations": [
+									"Cor",
+									"Tamanho"
+							],
+							"sellers": [
+									{
+											"sellerId": "1",
+											"sellerName": "Bauarte",
+											"addToCartLink": "https://bauarte.vtexcommercestable.com.br/checkout/cart/add?sku=163975&qty=1&seller=1&sc=1&price=23951&cv=6609909e2f6cf852d890f55d8e436bab_&sc=1",
+											"sellerDefault": true,
+											"commertialOffer": {
+													"DeliverySlaSamplesPerRegion": {
+															"0": {
+																	"DeliverySlaPerTypes": [],
+																	"Region": null
+															}
+													},
+													"Installments": [
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "American Express",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "American Express à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Visa",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Visa à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Diners",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Diners à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Mastercard",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Mastercard à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Discover",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Discover à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Boleto Bancário",
+																	"PaymentSystemGroupName": "bankInvoicePaymentGroup",
+																	"Name": "Boleto Bancário à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Aura",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Aura à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Elo",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Elo à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Visa Electron",
+																	"PaymentSystemGroupName": "debitCardPaymentGroup",
+																	"Name": "Visa Electron à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Maestro",
+																	"PaymentSystemGroupName": "debitCardPaymentGroup",
+																	"Name": "Maestro à vista"
+															}
+													],
+													"DiscountHighLight": [],
+													"GiftSkuIds": [],
+													"Teasers": [],
+													"BuyTogether": [],
+													"ItemMetadataAttachment": [],
+													"Price": 239.51,
+													"ListPrice": 239.51,
+													"PriceWithoutDiscount": 239.51,
+													"RewardValue": 0,
+													"PriceValidUntil": "2020-04-01T20:05:24.358981Z",
+													"AvailableQuantity": 2,
+													"Tax": 0,
+													"DeliverySlaSamples": [
+															{
+																	"DeliverySlaPerTypes": [],
+																	"Region": null
+															}
+													],
+													"GetInfoErrorMessage": null,
+													"CacheVersionUsedToCallCheckout": "6609909e2f6cf852d890f55d8e436bab_"
+											}
+									}
+							],
+							"Videos": []
+					},
+					{
+							"itemId": "163976",
+							"name": "Bolsa Feminina de Mão Textura Frontal em Tressê - WJ Acessórios  Preto",
+							"nameComplete": "Bolsa Feminina de Mão Textura Frontal em Tressê - WJ Acessórios  Preto",
+							"complementName": "750.44732",
+							"ean": "7908210630709",
+							"referenceId": [
+									{
+											"Key": "RefId",
+											"Value": "33776_58_0_M"
+									}
+							],
+							"measurementUnit": "un",
+							"unitMultiplier": 1,
+							"modalType": null,
+							"isKit": false,
+							"images": [
+									{
+											"imageId": "155455",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155455-#width#-#height#/002.3.750.4732_029_M-1.jpg?v=636894017271900000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_029_M-1\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155455/002.3.750.4732_029_M-1.jpg?v=636894017271900000",
+											"imageText": "002.3.750.4732_029_M-1"
+									},
+									{
+											"imageId": "155456",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155456-#width#-#height#/002.3.750.4732_029_M-2.jpg?v=636894017283000000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_029_M-2\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155456/002.3.750.4732_029_M-2.jpg?v=636894017283000000",
+											"imageText": "002.3.750.4732_029_M-2"
+									},
+									{
+											"imageId": "155457",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155457-#width#-#height#/002.3.750.4732_029_M-3.jpg?v=636894017293530000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_029_M-3\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155457/002.3.750.4732_029_M-3.jpg?v=636894017293530000",
+											"imageText": "002.3.750.4732_029_M-3"
+									},
+									{
+											"imageId": "155458",
+											"imageLabel": null,
+											"imageTag": "<img src=\"~/arquivos/ids/155458-#width#-#height#/002.3.750.4732_029_M-4.jpg?v=636894017302630000\" width=\"#width#\" height=\"#height#\" alt=\"002.3.750.4732_029_M-4\" id=\"\" />",
+											"imageUrl": "http://bauarte.vteximg.com.br/arquivos/ids/155458/002.3.750.4732_029_M-4.jpg?v=636894017302630000",
+											"imageText": "002.3.750.4732_029_M-4"
+									}
+							],
+							"sellers": [
+									{
+											"sellerId": "1",
+											"sellerName": "Bauarte",
+											"addToCartLink": "https://bauarte.vtexcommercestable.com.br/checkout/cart/add?sku=163976&qty=1&seller=1&sc=1&price=23951&cv=6609909e2f6cf852d890f55d8e436bab_&sc=1",
+											"sellerDefault": true,
+											"commertialOffer": {
+													"DeliverySlaSamplesPerRegion": {
+															"0": {
+																	"DeliverySlaPerTypes": [],
+																	"Region": null
+															}
+													},
+													"Installments": [
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "American Express",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "American Express à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Visa",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Visa à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Diners",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Diners à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Mastercard",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Mastercard à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Discover",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Discover à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Boleto Bancário",
+																	"PaymentSystemGroupName": "bankInvoicePaymentGroup",
+																	"Name": "Boleto Bancário à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Aura",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Aura à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Elo",
+																	"PaymentSystemGroupName": "creditCardPaymentGroup",
+																	"Name": "Elo à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Visa Electron",
+																	"PaymentSystemGroupName": "debitCardPaymentGroup",
+																	"Name": "Visa Electron à vista"
+															},
+															{
+																	"Value": 239.51,
+																	"InterestRate": 0,
+																	"TotalValuePlusInterestRate": 239.51,
+																	"NumberOfInstallments": 1,
+																	"PaymentSystemName": "Maestro",
+																	"PaymentSystemGroupName": "debitCardPaymentGroup",
+																	"Name": "Maestro à vista"
+															}
+													],
+													"DiscountHighLight": [],
+													"GiftSkuIds": [],
+													"Teasers": [],
+													"BuyTogether": [],
+													"ItemMetadataAttachment": [],
+													"Price": 239.51,
+													"ListPrice": 239.51,
+													"PriceWithoutDiscount": 239.51,
+													"RewardValue": 0,
+													"PriceValidUntil": "2020-04-01T20:05:24.3834557Z",
+													"AvailableQuantity": 2,
+													"Tax": 0,
+													"DeliverySlaSamples": [
+															{
+																	"DeliverySlaPerTypes": [],
+																	"Region": null
+															}
+													],
+													"GetInfoErrorMessage": null,
+													"CacheVersionUsedToCallCheckout": "6609909e2f6cf852d890f55d8e436bab_"
+											}
+									}
+							],
+							"Videos": []
+					}
+			]
+	}
+]

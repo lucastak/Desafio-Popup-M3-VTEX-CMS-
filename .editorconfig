@@ -1,0 +1,32 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+charset = utf-8
+
+# Indentação via TAB, para pug e html
+[*.html]
+indent_style = tab
+indent_size = 3
+
+# Arquivos JS e CSS
+[*.{js,css,less,scss}]
+indent_style = tab
+indent_size = 4
+
+# Demais arquivos importantes
+[*.json]
+indent_style = tab
+indent_size = 2
+
+
+# Demais arquivos importantes
+[*.md]
+indent_style = space
+indent_size = 4

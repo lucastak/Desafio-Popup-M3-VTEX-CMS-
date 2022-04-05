@@ -1,0 +1,193 @@
+.shelf {
+	h2 {
+		margin: 0 0 16px;
+		text-align: center;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	ul {
+		margin: 0;
+
+		@include mq(lg, max) {
+			padding: 0 50px;
+		}
+	}
+
+	.slick-track {
+		display: flex;
+	}
+
+	.slick-slide {
+		height: auto;
+
+		& > div,
+		li {
+			height: 100%;
+		}
+	}
+
+	.slick-arrow {
+		@extend .sprite;
+
+		@include mq(lg, max) {
+			transform: translateY(50%) scale(0.7);
+		}
+	}
+
+	.slick-prev {
+		right: 101%;
+
+		@include mq(lg, max) {
+			left: 0;
+			right: auto;
+			transform-origin: left;
+		}
+
+		@extend .sprite-left-gray-arrow-icon;
+	}
+
+	.slick-next {
+		left: 101%;
+
+		@include mq(md, max) {
+			right: 0;
+			left: auto;
+			transform-origin: right;
+		}
+
+		@extend .sprite-right-gray-arrow-icon;
+	}
+
+	.produto-na-prateleira {
+		display: flex;
+		position: relative;
+		flex-direction: column;
+		height: 100%;
+		margin: 0 15px;
+
+		.product-image {
+			position: relative;
+			padding-top: 100%;
+			overflow: hidden;
+			margin-bottom: 16px;
+
+			&:hover {
+				.foto-secundaria {
+					opacity: 1;
+					pointer-events: all;
+				}
+			}
+
+			.foto-principal,
+			.foto-secundaria {
+				position: absolute;
+				top: 0;
+				left: 0;
+				z-index: map-get($z-index, level-1);
+				width: 100%;
+				height: 100%;
+			}
+
+			.foto-secundaria {
+				opacity: 0;
+				pointer-events: none;
+				transition: all 0.2s ease-in-out;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+
+		.disponivel,
+		.indisponivel {
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+
+		.nome {
+			margin-bottom: 17px;
+			text-align: center;
+			text-transform: uppercase;
+			font-weight: 500;
+			font-size: 10px;
+			line-height: 12px;
+		}
+
+		.price {
+			margin-bottom: 17px;
+			text-align: center;
+			text-transform: uppercase;
+
+			.antigo {
+				margin-bottom: 4px;
+				text-decoration: line-through;
+				font-weight: 900;
+				font-size: 10px;
+				line-height: 12px;
+				color: $gray-300;
+			}
+
+			.principal {
+				margin-bottom: 4px;
+				font-weight: 900;
+				font-size: 13px;
+				line-height: 16px;
+			}
+
+			.parcelado {
+				font-size: 10px;
+				line-height: 12px;
+				color: $gray-400;
+			}
+		}
+
+		.btn-compra {
+			a {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 50px;
+				background: $black-500;
+				color: $white-500;
+				font-weight: bold;
+				line-height: 12px;
+				font-size: 10px;
+
+				@include mq(lg, max) {
+					&:active {
+						background: lighten($black-500, 10);
+					}
+				}
+
+				@include mq(lg, min) {
+					&:hover {
+						background: lighten($black-500, 10);
+					}
+
+					&:active {
+						background: $black-500;
+					}
+				}
+			}
+		}
+
+		.indisponivel {
+			.erro {
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				height: 50px;
+				font-weight: bold;
+				line-height: 12px;
+				font-size: 10px;
+				color: $red-300;
+			}
+		}
+	}
+}
